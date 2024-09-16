@@ -1,9 +1,9 @@
 //* API = Application Programming Interface
-//? What it means: What it means: Its the middle man between The front end (website) and the DATABASE
+//? What it means: Its the middle man between The front end (website) and the DATABASE
 
 
 //* JSON = Javascript Object Notation
-//* JSON is sset up the same way as an object
+//* JSON is set up the same way as an object
 let person = {
     firstName: "Chris",
     lastName: "Jenkins",
@@ -50,7 +50,7 @@ async function fetchData(currentCount){
 
 async function pasteDataToPage(){
     //? USE THIS TO KEEP REPEAT CLICKING BUTTON
-    //* Running this first so I have "currentCharacter" have data
+    //* Running this first so I have the "currentCharacter" data
     showButton.disabled = 'true'
     await fetchData(counter)
 
